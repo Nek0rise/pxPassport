@@ -1,0 +1,18 @@
+passport-gui:
+  name: "񎵀񎵀񎵀񎵀񎵀񎵀񎵀񎵀񎵀񎵀񎵀񎵀񎵀<white>ð󏾍<black>Passport 󏿚<font:default_line_1>Name: <#813100>%player%</font><font:default_line_2><black>City: <#813100>%city%</font><font:default_line_3><black>Sex: <#813100>%sex%</font>󏿃<font:default_pid><#813100>#46 01%id%</font>"
+
+  size: 36
+  items:
+    player_avatar:
+      index: 19
+      material: PLAYER_HEAD
+      item-model: "minecraft:avatar"
+      display-name: "<italic:false><#ff9a4d>Photo"
+      type: AVATAR
+    border:
+      index: 27
+      material: PAPER
+      item-model: "minecraft:passport_border"
+      display-name: "<italic:false><white>ID: <#ff9a4d>#46 01%id%"
+      lore:
+        - "<italic:false><white>Date of issue: <#ff9a4d>%date%"

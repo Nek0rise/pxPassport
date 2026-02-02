@@ -1,0 +1,21 @@
+name: pxPassport
+version: '1.1'
+main: uwu.nekorise.pxPassport.PxPassport
+api-version: '1.21'
+authors: [ Nekorise ]
+commands:
+  pxpassport: {}
+  passport: {}
+
+# Permissions:
+# pxpassport.view.other
+# pxpassport.view.own
+# pxpassport.give
+# pxpassport.delete
+# pxpassport.reload
+
+# TODO:
+# Add PAPI extension
+# Negative chars -> allowed chars
+
+

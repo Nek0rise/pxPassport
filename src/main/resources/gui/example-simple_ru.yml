@@ -1,0 +1,16 @@
+passport-gui:
+  name: "Паспорт <#813100>%player%"
+
+  size: 9
+  items:
+    player_avatar:
+      index: 4
+      material: PLAYER_HEAD
+      display-name: "<italic:false><#ff9a4d>%player%"
+      type: AVATAR
+      lore:
+        - "<italic:false><white>Номер: <#ff9a4d>#%id%"
+        - "<italic:false><white>Дата выдачи: <#ff9a4d>%date%"
+        - "<italic:false><white>Город: <#ff9a4d>%city%"
+        - "<italic:false><white>Пол: <#ff9a4d>%sex%"
+        - "<italic:false><white>Discord: <#ff9a4d>%value1%"

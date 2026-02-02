@@ -1,0 +1,27 @@
+passport-command:
+  usage: "<#ff4500>Введи команду полностью"
+  view:
+    player-is-far: "<#ffab42>Игрок должен быть рядом <#ff854d>(≤ 10 блоков)"
+    view-request: "Игрок <#ff9a4d>%player% <white>запрашивает просмотр твоего паспорта<br><#54ffa0><click:run_command:/passport accept>[Показать]</click> <white>- <#ff6454><click:run_command:/passport deny>[Отказать]</click>"
+    request-sent: "<#54ffa0>Запрос отправлен"
+    request-deny: "<#ff6454>Игрок отказал в просмотре паспорта"
+  give:
+    usage: "<#ffab42>Используй: <#ff854d>/passport give <Ник> <Данные>"
+    success: "<#ffab42>Паспорт выдан игроку <#ff854d>%player%<br><#ffab42>Дата выдачи: <#ff854d>%date%<br><#ffab42>Выдал: <#ff854d>%author%<br><#ffab42>Номер: <#ff854d>#%id%<br><#ffab42>Дата рождения: <#ff854d>%birthday%<br><#ffab42>Город: <#ff854d>%city%<br><#ffab42>Пол: <#ff854d>%sex%<br><#ffab42>Discord: <#ff854d>%value1%"
+  accept-deny:
+    no-requests: "<#ff6454>Нет активного запроса"
+    accept: "<#54ffa0>Ты показал паспорт"
+    deny: "<#ff6454>Ты отказал в просмотре паспорта"
+  delete:
+    usage: "<#ffab42>Используй: <#ff854d>/passport delete <Ник>"
+    success: "<#ffab42>Паспорт игрока <#ff854d>%player% <#ff6454>удалён"
+
+pxpassport-command:
+  usage: "<#ffab42>Используй: <#ff854d>/pxpassport reload"
+  success: "<#ffab42>pxPassport » <gradient:#ffab42:#54ffa0>КФГ перезагружены</gradient>"
+
+
+player-only: "<red>Эту команду может использовать только игрок"
+player-offline: "<#ff6454>Игрок не найден"
+player-without-passport: "<#ff6454>У игрока нет паспорта"
+no-permission: "<#ff6454>Нет прав"

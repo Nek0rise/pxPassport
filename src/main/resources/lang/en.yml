@@ -1,0 +1,27 @@
+passport-command:
+  usage: "<#ff4500>Enter the command completely"
+  view:
+    player-is-far: "<#ffab42>The player must be nearby <#ff854d>(≤ 10 blocks)"
+    view-request: "Player <#ff9a4d>%player% <white>is requesting to view your passport<br><#54ffa0><click:run_command:/passport accept>[Show]</click> <white>- <#ff6454><click:run_command:/passport deny>[Deny]</click>"
+    request-sent: "<#54ffa0>Request sent"
+    request-deny: "<#ff6454>The player denied passport viewing"
+  give:
+    usage: "<#ffab42>Use: <#ff854d>/passport give <Nickname> <Data>"
+    success: "<#ffab42>Passport issued to player <#ff854d>%player%<br><#ffab42>Issue date: <#ff854d>%date%<br><#ffab42>Issued by: <#ff854d>%author%<br><#ffab42>Number: <#ff854d>#%id%<br><#ffab42>Date of birth: <#ff854d>%birthday%<br><#ffab42>City: <#ff854d>%city%<br><#ffab42>Sex: <#ff854d>%sex%<br><#ffab42>Discord: <#ff854d>%value1%"
+  accept-deny:
+    no-requests: "<#ff6454>No active request"
+    accept: "<#54ffa0>You showed the passport"
+    deny: "<#ff6454>You denied passport viewing"
+  delete:
+    usage: "<#ffab42>Use: <#ff854d>/passport delete <Nickname>"
+    success: "<#ffab42>Player <#ff854d>%player% <#ff6454>passport deleted"
+
+pxpassport-command:
+  usage: "<#ffab42>Use: <#ff854d>/pxpassport reload"
+  success: "<#ffab42>pxPassport » <gradient:#ffab42:#54ffa0>Config reloaded</gradient>"
+
+
+player-only: "<red>This command can only be used by a player"
+player-offline: "<#ff6454>Player not found"
+player-without-passport: "<#ff6454>The player does not have a passport"
+no-permission: "<#ff6454>No permission"
